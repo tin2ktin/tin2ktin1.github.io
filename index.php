@@ -19,7 +19,7 @@
     <!-- Use the nav area to add hyperlinks to other pages within the website  -->
     <nav>
       <ul>
-        <li><a href="index.html">Home</a></li>
+        <li><a href="index.php">Home</a></li>
         <li><a href="about.html">About Us</a></li>
         <li><a href="class.html">Classes</a></li>
         <li><a href="nutrition.html">Nutrition</a></li>
@@ -66,6 +66,12 @@
 
       </div>
 
+      <audio autoplay controls>
+        <source src="media/ffc_aud.mp3" type="audio/mp3">
+        <source src="media/ffc_aud.ogg" type="audio/ogg">
+        <source src="media/ffc_aud.wav" type="audio/wav">
+        <p>Your browser does not support the audio tag.</p>
+      </audio>
     </main>
 
     <!-- Use the footer area to add webpage footer content -->

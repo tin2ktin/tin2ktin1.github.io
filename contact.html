@@ -19,7 +19,7 @@
     <!-- Use the nav area to add hyperlinks to other pages within the website  -->
     <nav>
       <ul>
-        <li><a href="index.html">Home</a></li>
+        <li><a href="index.php">Home</a></li>
         <li><a href="about.html">About Us</a></li>
         <li><a href="class.html">Classes</a></li>
         <li><a href="nutrition.html">Nutrition</a></li>
@@ -33,7 +33,7 @@
       <h2>Ready to get started?</h2>
       <h2>Complete the form below to begin your free trial.</h2>
 
-      <form> <!-- Start Form -->
+      <form action="trainee.php" method="post"> <!-- Start Form -->
         <label for="fName">First Name:</label>
         <input type="text" name="fName" id="fName">
 
@@ -42,7 +42,7 @@
 
         <label for="email">Email:</label>
         <input type="email" name="email" id="email">
-        
+
         <label for="phone">Phone:</label>
         <input type="tel" name="phone" id="phone">
 
